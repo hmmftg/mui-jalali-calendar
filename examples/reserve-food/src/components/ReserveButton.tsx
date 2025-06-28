@@ -152,7 +152,7 @@ const ReserveButton: React.FC<PickersDayProps> = ({
                 color={upComing ? "success" : "info"}
                 sx={{ fontSize: { xs: "0.8rem", lg: "2rem" } }}
               >
-                {hasBreakFast && <DoneIcon  sx={{fontSize:{xs:"1rem",lg:"2rem"}}} />}
+                {hasBreakFast && <DoneIcon  sx={{fontSize:{xs:"1rem",lg:"1.2rem"}}} />}
                 <Stack direction={"column"}>
                   {!isSmallScreen && <Typography>{breakfastTitle}</Typography>}
                   <Typography sx={{fontSize: { xs: "0.8rem", lg: "1.4rem" }}}>{weekDays[getDay(day)].breakfast}</Typography>
@@ -181,7 +181,7 @@ const ReserveButton: React.FC<PickersDayProps> = ({
                 color={upComing ? "success" : "info"}
                 sx={{ fontSize: { xs: "0.8rem", lg: "2rem" } }}
               >
-                {hasSalad && <DoneIcon sx={{fontSize:{xs:"1rem",lg:"2rem"}}} />}
+                {hasSalad && <DoneIcon sx={{fontSize:{xs:"1rem",lg:"1.2rem"}}} />}
                 <Stack direction={"column"}>
                   {!isSmallScreen && <Typography>{saladTitle}</Typography>}
                   <Typography sx={{fontSize: { xs: "0.8rem", lg: "1.4rem" }}}>{weekDays[getDay(day)].salad}</Typography>

@@ -20,6 +20,7 @@ import RestoreIcon from "@mui/icons-material/Restore";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ArchiveIcon from "@mui/icons-material/Archive";
 import SaladAnimation from "../assets/images/salad-animation.gif";
+import Logo from "../assets/images/logo-r.png";
 import { useMediaQuery } from "@mui/system";
 
 interface MenuItem {
@@ -72,15 +73,15 @@ const Drawer: React.FC<DrawerProps> = ({ menuItems, defaultItemId }) => {
                 textAlign={"center"}
                 fontSize={"2.5rem"}
               >
-                سامانه رزرو کافه پویا
+                سامانه رزرو آنلاین غذا
               </Typography>
               <Box
                 sx={{
-                  backgroundImage: `url(${"https://pooya.ir/wp-content/uploads/2024/06/pooyaCo-logo-white.webp"})`,
+                  backgroundImage: `url(${Logo})`,
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
-                  width: "75px",
-                  height: "55px",
+                  width: "40px",
+                  height: "38px",
                 }}
               ></Box>
             </Stack>
