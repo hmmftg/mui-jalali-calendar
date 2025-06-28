@@ -17,8 +17,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "prepublishOnly": "npm run build",
-    "predeploy": "npm run build examples",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build examples/reserve-food",
+    "deploy": "gh-pages -d examples/reserve-food/dist"
   },
   "peerDependencies": {
     "@emotion/react": "^11.14.0",
@@ -54,6 +54,7 @@
     "date-picker"
   ],
   "dependencies": {
+    "@hmmftg/mui-jalali-calendar": "^0.1.8",
     "vite-plugin-dts": "^4.5.4",
     "vite-plugin-lib-inject-css": "^2.2.2"
   }
