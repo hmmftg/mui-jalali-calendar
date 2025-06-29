@@ -4,7 +4,7 @@ Persian Wide Calendar Built With Mui DatePicker, to decrease effort to build Wid
 
 ## Examples
 
-You can find examples of how to use the `mui-jalali-calendar` component in the [examples](examples) folder.
+You can find examples of how to use the `mui-jalali-calendar` component in the [examples](https://github.com/hmmftg/mui-jalali-calendar/tree/main/examples) folder.
 
 ### Live Demo
 
